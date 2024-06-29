@@ -31,50 +31,60 @@
       .qr_code {
         height: 300px;
         width: 300px;
-        border-radius: 10%;
+        border-radius: 5%;
+        margin-top: 20px;
       }
 
       .card {
-        margin-top: 100px;
         padding-top: 10px;
-        max-width: 400px;
+        max-width: 380px;
         max-height: 700px;
         background-color: hsl(0, 0%, 100%);
         display: flex;
-
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: auto;
-        gap: 4px;
         border-radius: 5%;
       }
 
-      .prag {
-        padding: 2px;
+      .header {
         text-align: center;
         font-family: "Outfit",sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
       }
+
+      .prag{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-family: "Outfit",sans-serif;
+        color: hsl(218, 44%, 22%);}
 
       body {
         background-color: hsl(220, 15%, 55%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
       }
     </style>
 
 
   </head>
   <body>
-    <div class="card">
+    <main class="card">
       <img src="./images/image-qr-code.png" class="qr_code" alt="qr_code" />
 
-      <h3 class="prag">
+      <h3 class="header">
         Improve your front-end skills by building projects lore Scan the QR code
         to visit Frontend Mentor and take your coding skills to the next level
       </h3>
 
       <p class="prag">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 
-      </div>
+      </main>
     </div>
   </body>
 </html>
